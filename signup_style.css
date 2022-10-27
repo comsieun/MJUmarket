@@ -2,16 +2,14 @@
   box-sizing: border-box;
 }
 body {
-  background-image: url('/images/나뭇잎왼.png'), url('/images/나뭇잎오른.png');
+  background-image: url('images/mjuBackground.png');
   font-size: 14px;
-  height: 700px;
+  background-size: cover;
   background-color: rgba(49,89,158,1);
-  background-repeat: no-repeat,no-repeat;
-  background-position: left bottom, right bottom;
+  background-repeat: no-repeat;
 }
 .MJMK{
   width:10%;
-  height:10%;
 }
 h1{
   color: rgba(255,255,255,1);
@@ -59,6 +57,7 @@ h1{
   background: rgba(255,255,255,1);
   opacity: 1;
   overflow: hidden;
+  border: 0;
 }
 .btn-email:hover{
   background-color: rgb(33, 65, 121);
