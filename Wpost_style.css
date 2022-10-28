@@ -51,10 +51,14 @@ textarea{
     bottom: 5%;
     width: 130px;
     height: 50px;
-
+    text-align: center;
+    line-height: 200%;
+    text-decoration-line: none;
+    font-size: 2vh;
     outline: none;
     border: 0;
-
+    color: black;
+    
 }#fin:hover{
     color:white;
     background-color: rgb(51, 75, 145);
